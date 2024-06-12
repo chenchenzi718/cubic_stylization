@@ -1,7 +1,7 @@
 import open3d as o3d
 
 
-# 使用 Open3D 可视化结
+# 使用 Open3D 可视化结果
 def visualize_mesh(vertices, faces, title="Mesh"):
     mesh = o3d.geometry.TriangleMesh()
     mesh.vertices = o3d.utility.Vector3dVector(vertices)
